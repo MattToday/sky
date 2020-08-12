@@ -37,7 +37,9 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
+    '@/plugins/axios',
+    '@/plugins/mockjs'
   ],
   /*
   ** Auto import components
@@ -53,7 +55,14 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
   ],
+  axios: {
+    proxy: false
+  },
+  proxy: {
+  "/api": "http://localhost:8080"
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/

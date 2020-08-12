@@ -4915,6 +4915,18 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
+kissui.position@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/kissui.position/download/kissui.position-0.1.0.tgz#bde72650f941da4736a68f59e26f92230161df8c"
+  integrity sha1-vecmUPlB2kc2po9Z4m+SIwFh34w=
+
+kissui.scrollanim@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npm.taobao.org/kissui.scrollanim/download/kissui.scrollanim-0.3.0.tgz#c160717986b19a29f6d214795efd6e1348209970"
+  integrity sha1-wWBxeYaxmin20hR5Xv1uE0ggmXA=
+  dependencies:
+    kissui.position "^0.1.0"
+
 klona@^1.1.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/klona/download/klona-1.1.2.tgz?cache=0&sync_timestamp=1594031499693&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fklona%2Fdownload%2Fklona-1.1.2.tgz#a79e292518a5a5412ec8d097964bff1571a64db0"
